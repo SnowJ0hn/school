@@ -1,0 +1,118 @@
+/* ===============================
+   Global Style
+================================ */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f5f7fa;
+  color: #333;
+}
+
+/* ===============================
+   Header & Navigation
+================================ */
+header {
+  background: #4CAF50;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+nav {
+  background: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #4CAF50;
+}
+
+/* ===============================
+   Container & Titles
+================================ */
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #4CAF50;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+}
+
+/* ===============================
+   Tables
+================================ */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+table th {
+  background: #f0f0f0;
+}
+
+/* ===============================
+   Buttons
+================================ */
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 4px 2px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.btn-primary { background: #4CAF50; color: white; }
+.btn-primary:hover { background: #43a047; }
+
+.btn-danger { background: #e53935; color: white; }
+.btn-danger:hover { background: #c62828; }
+
+.btn-warning { background: #fbc02d; color: black; }
+.btn-warning:hover { background: #f9a825; }
+
+/* ===============================
+   Form Inputs
+================================ */
+input, select {
+  padding: 8px;
+  margin: 6px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input[type="submit"], button {
+  cursor: pointer;
+}
